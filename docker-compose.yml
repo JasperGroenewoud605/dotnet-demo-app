@@ -33,3 +33,8 @@ services:
 
 volumes:
   mariadb-data:
+
+networks:
+  default:
+    name: jenkins-net
+    external: true
